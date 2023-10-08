@@ -116,7 +116,7 @@ export default function Signup({ prepopulateFormValues, token, orgSlug, orgAutoA
         className="bg-muted flex min-h-screen flex-col justify-center "
         style={
           {
-            "--cal-brand": "#111827",
+            "--cal-brand": "#006BFF",
             "--cal-brand-emphasis": "#101010",
             "--cal-brand-text": "white",
             "--cal-brand-subtle": "#9CA3AF",
@@ -127,9 +127,7 @@ export default function Signup({ prepopulateFormValues, token, orgSlug, orgAutoA
         aria-modal="true">
         <HeadSeo title={t("sign_up")} description={t("sign_up")} />
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <h2 className="font-cal text-emphasis text-center text-3xl font-extrabold">
-            {t("create_your_account")}
-          </h2>
+          <h2 className="font-cal text-emphasis text-center text-3xl font-extrabold">{t("Sign up")}</h2>
         </div>
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
           <div className="bg-default mx-2 p-6 shadow sm:rounded-lg lg:p-8">

@@ -14,19 +14,19 @@ export default function Logo({
   src?: string;
 }) {
   return (
-    <h3 className={classNames("logo", inline && "inline", className)}>
+    <div className={classNames("logo", inline && "inline", className)}>
       <strong>
         {icon ? (
-          <img className="mx-auto w-9 dark:invert" alt="Cal" title="Cal" src={`${src}?type=icon`} />
+          <img className="mx-auto w-9 dark:invert" alt="meeteasy" title="meeteasy" src={`${src}?type=icon`} />
         ) : (
           <img
-            className={classNames(small ? "h-4 w-auto" : "h-5 w-auto", "dark:invert")}
-            alt="Cal"
-            title="Cal"
+            className={classNames(small ? "h-4 w-auto" : "h-24 w-auto", "dark:invert")}
+            alt="meeteasy"
+            title="meeteasy"
             src={src}
           />
         )}
       </strong>
-    </h3>
+    </div>
   );
 }

@@ -19,13 +19,10 @@ import {
   ArrowLeft,
   ChevronDown,
   ChevronRight,
-  CreditCard,
-  Key,
   Loader,
   Lock,
   Menu,
   Plus,
-  Terminal,
   User,
   Users,
 } from "@calcom/ui/components/icon";
@@ -45,66 +42,66 @@ const tabs: VerticalTabItemProps[] = [
       // { name: "referrals", href: "/settings/my-account/referrals" },
     ],
   },
-  {
-    name: "security",
-    href: "/settings/security",
-    icon: Key,
-    children: [
-      { name: "password", href: "/settings/security/password" },
-      { name: "impersonation", href: "/settings/security/impersonation" },
-      { name: "2fa_auth", href: "/settings/security/two-factor-auth" },
-    ],
-  },
-  {
-    name: "billing",
-    href: "/settings/billing",
-    icon: CreditCard,
-    children: [{ name: "manage_billing", href: "/settings/billing" }],
-  },
-  {
-    name: "developer",
-    href: "/settings/developer",
-    icon: Terminal,
-    children: [
-      //
-      { name: "webhooks", href: "/settings/developer/webhooks" },
-      { name: "api_keys", href: "/settings/developer/api-keys" },
-      // TODO: Add profile level for embeds
-      // { name: "embeds", href: "/v2/settings/developer/embeds" },
-    ],
-  },
-  {
-    name: "organization",
-    href: "/settings/organizations",
-    children: [
-      {
-        name: "profile",
-        href: "/settings/organizations/profile",
-      },
-      {
-        name: "general",
-        href: "/settings/organizations/general",
-      },
-      {
-        name: "members",
-        href: "/settings/organizations/members",
-      },
-      {
-        name: "appearance",
-        href: "/settings/organizations/appearance",
-      },
-      {
-        name: "billing",
-        href: "/settings/organizations/billing",
-      },
-    ],
-  },
-  {
-    name: "teams",
-    href: "/settings/teams",
-    icon: Users,
-    children: [],
-  },
+  // {
+  //   name: "security",
+  //   href: "/settings/security",
+  //   icon: Key,
+  //   children: [
+  //     { name: "password", href: "/settings/security/password" },
+  //     { name: "impersonation", href: "/settings/security/impersonation" },
+  //     { name: "2fa_auth", href: "/settings/security/two-factor-auth" },
+  //   ],
+  // },
+  // {
+  //   name: "billing",
+  //   href: "/settings/billing",
+  //   icon: CreditCard,
+  //   children: [{ name: "manage_billing", href: "/settings/billing" }],
+  // },
+  // {
+  //   name: "developer",
+  //   href: "/settings/developer",
+  //   icon: Terminal,
+  //   children: [
+  //     //
+  //     { name: "webhooks", href: "/settings/developer/webhooks" },
+  //     { name: "api_keys", href: "/settings/developer/api-keys" },
+  //     // TODO: Add profile level for embeds
+  //     // { name: "embeds", href: "/v2/settings/developer/embeds" },
+  //   ],
+  // },
+  // {
+  //   name: "organization",
+  //   href: "/settings/organizations",
+  //   children: [
+  //     {
+  //       name: "profile",
+  //       href: "/settings/organizations/profile",
+  //     },
+  //     {
+  //       name: "general",
+  //       href: "/settings/organizations/general",
+  //     },
+  //     {
+  //       name: "members",
+  //       href: "/settings/organizations/members",
+  //     },
+  //     {
+  //       name: "appearance",
+  //       href: "/settings/organizations/appearance",
+  //     },
+  //     {
+  //       name: "billing",
+  //       href: "/settings/organizations/billing",
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: "teams",
+  //   href: "/settings/teams",
+  //   icon: Users,
+  //   children: [],
+  // },
   {
     name: "admin",
     href: "/settings/admin",
