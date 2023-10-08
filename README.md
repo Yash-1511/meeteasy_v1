@@ -1,6 +1,8 @@
+
 # MeetEasy - Personal Meeting Scheduling Platform 📅
 
-In today's fast-paced world, scheduling meetings efficiently is crucial. MeetEasy is a Personal Meeting Scheduling Platform designed to simplify the process of setting up and managing meetings. With MeetEasy, you can create your own custom meeting scheduling link (🔗 e.g., abc.com/MeetingWithMe), connect your Google 📆 and Microsoft 📅 calendars, and effortlessly coordinate meetings with others. Whether you're a professional, a freelancer, or anyone who needs to schedule meetings, MeetEasy has got you covered. 🚀
+In today's fast-paced world, scheduling meetings efficiently is crucial. MeetEasy is a Perso[PYHK.pptx](https://github.com/Yash-1511/meeteasy_v1/files/12841044/PYHK.pptx)
+nal Meeting Scheduling Platform designed to simplify the process of setting up and managing meetings. With MeetEasy, you can create your own custom meeting scheduling link (🔗 e.g., abc.com/MeetingWithMe), connect your Google 📆 and Microsoft 📅 calendars, and effortlessly coordinate meetings with others. Whether you're a professional, a freelancer, or anyone who needs to schedule meetings, MeetEasy has got you covered. 🚀
 
 ## Key Features 🌟
 
