@@ -15,7 +15,7 @@ export default function MaintenancePage() {
         <title>
           {t("under_maintenance")} | {APP_NAME}
         </title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/.ico" />
       </Head>
       <div className="bg-default m-auto rounded-md p-10 text-right ltr:text-left">
         <h1 className="text-emphasis text-2xl font-medium">{t("under_maintenance")}</h1>

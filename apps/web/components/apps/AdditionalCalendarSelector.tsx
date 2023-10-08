@@ -30,7 +30,6 @@ const AdditionalCalendarSelector = ({ isLoading }: AdditionalCalendarSelectorPro
         const options = data.items.map((item) => ({
           label: item.name,
           slug: item.slug,
-          image: item.logo,
           type: item.type,
         }));
         options.push({

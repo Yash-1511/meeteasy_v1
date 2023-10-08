@@ -20,19 +20,16 @@ import { trpc } from "@calcom/trpc/react";
 import type { RouterOutputs } from "@calcom/trpc/react";
 import type { AppRouter } from "@calcom/trpc/server/routers/_app";
 import {
-  Alert,
   Button,
   Dialog,
   DialogClose,
   DialogContent,
   DialogFooter,
-  DialogTrigger,
   Editor,
   Form,
   ImageUploader,
   Label,
   Meta,
-  PasswordField,
   showToast,
   SkeletonAvatar,
   SkeletonButton,
@@ -40,10 +37,9 @@ import {
   SkeletonText,
   TextField,
 } from "@calcom/ui";
-import { AlertTriangle, Trash2 } from "@calcom/ui/components/icon";
+import { AlertTriangle } from "@calcom/ui/components/icon";
 
 import PageWrapper from "@components/PageWrapper";
-import TwoFactor from "@components/auth/TwoFactor";
 import { UsernameAvailabilityField } from "@components/ui/UsernameAvailability";
 
 const SkeletonLoader = ({ title, description }: { title: string; description: string }) => {
@@ -279,12 +275,12 @@ const ProfileView = () => {
         }
       />
 
-      <div className="border-subtle mt-6 rounded-xl rounded-b-none border border-b-0 p-6">
+      {/* <div className="border-subtle mt-6 rounded-xl rounded-b-none border border-b-0 p-6">
         <Label className="text-base font-semibold text-red-700">{t("danger_zone")}</Label>
         <p className="text-subtle">{t("account_deletion_cannot_be_undone")}</p>
-      </div>
+      </div> */}
       {/* Delete account Dialog */}
-      <Dialog open={deleteAccountOpen} onOpenChange={setDeleteAccountOpen}>
+      {/* <Dialog open={deleteAccountOpen} onOpenChange={setDeleteAccountOpen}>
         <SectionBottomActions align="end">
           <DialogTrigger asChild>
             <Button data-testid="delete-account" color="destructive" className="mt-1" StartIcon={Trash2}>
@@ -331,10 +327,10 @@ const ProfileView = () => {
             </DialogFooter>
           </>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
 
       {/* If changing email, confirm password */}
-      <Dialog open={confirmPasswordOpen} onOpenChange={setConfirmPasswordOpen}>
+      {/* <Dialog open={confirmPasswordOpen} onOpenChange={setConfirmPasswordOpen}>
         <DialogContent
           title={t("confirm_password")}
           description={t("confirm_password_change_email")}
@@ -363,7 +359,7 @@ const ProfileView = () => {
             <DialogClose />
           </DialogFooter>
         </DialogContent>
-      </Dialog>
+      </Dialog> */}
 
       {/* If changing email from !CAL Login */}
       <Dialog

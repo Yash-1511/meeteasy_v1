@@ -41,7 +41,6 @@ const ConnectedCalendars = (props: IConnectCalendarsProps) => {
               <ConnectedCalendarItem
                 key={firstCalendar.integration.title}
                 name={firstCalendar.integration.title}
-                logo={firstCalendar.integration.logo}
                 externalId={
                   firstCalendar && firstCalendar.calendars && firstCalendar.calendars.length > 0
                     ? firstCalendar.calendars[0].externalId
@@ -64,12 +63,7 @@ const ConnectedCalendars = (props: IConnectCalendarsProps) => {
             queryIntegrations.data.items.map((item) => (
               <li key={item.title}>
                 {item.title && item.logo && (
-                  <AppConnectionItem
-                    type={item.type}
-                    title={item.title}
-                    description={item.description}
-                    logo={item.logo}
-                  />
+                  <AppConnectionItem type={item.type} title={item.title} description={item.description} />
                 )}
               </li>
             ))}

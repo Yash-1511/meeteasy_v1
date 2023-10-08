@@ -161,10 +161,7 @@ export default function AvailabilityPage() {
                 if (!value) return;
                 router.push(`${pathname}?${createQueryString("type", value)}`);
               }}
-              options={[
-                { value: "mine", label: t("my_availability") },
-                { value: "team", label: t("team_availability") },
-              ]}
+              options={[{ value: "mine", label: t("my_availability") }]}
             />
             <NewScheduleButton />
           </div>

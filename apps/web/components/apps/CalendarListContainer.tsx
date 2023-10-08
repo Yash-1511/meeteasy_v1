@@ -42,7 +42,6 @@ function CalendarList(props: Props) {
             <AppListCard
               title={item.name}
               key={item.name}
-              logo={item.logo}
               description={item.description}
               shouldHighlight
               slug={item.slug}
@@ -90,7 +89,6 @@ function ConnectedCalendarsList(props: Props) {
                     shouldHighlight
                     slug={item.integration.slug}
                     title={item.integration.name}
-                    logo={item.integration.logo}
                     description={item.primary?.email ?? item.integration.description}
                     actions={
                       <div className="flex w-32 justify-end">

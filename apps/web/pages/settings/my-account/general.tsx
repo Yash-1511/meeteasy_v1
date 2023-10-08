@@ -20,7 +20,6 @@ import {
   SkeletonContainer,
   SkeletonText,
   TimezoneSelect,
-  SettingsToggle,
 } from "@calcom/ui";
 
 import PageWrapper from "@components/PageWrapper";
@@ -223,7 +222,7 @@ const GeneralView = ({ localeProp, user }: GeneralViewProps) => {
         </SectionBottomActions>
       </Form>
 
-      <SettingsToggle
+      {/* <SettingsToggle
         toggleSwitchAtTheEnd={true}
         title={t("dynamic_booking")}
         description={t("allow_dynamic_booking")}
@@ -260,7 +259,7 @@ const GeneralView = ({ localeProp, user }: GeneralViewProps) => {
           mutation.mutate({ receiveMonthlyDigestEmail: checked });
         }}
         switchContainerClassName="border-subtle mt-6 rounded-xl border py-6 px-4 sm:px-6"
-      />
+      /> */}
     </div>
   );
 };
