@@ -1,4 +1,4 @@
-[PYHK.pptx](https://github.com/Yash-1511/meeteasy_v1/files/12841044/PYHK.pptx)
+PPT : [PYHK.pptx](https://github.com/Yash-1511/meeteasy_v1/files/12841044/PYHK.pptx)
 
 # MeetEasy - Personal Meeting Scheduling Platform 📅
 
