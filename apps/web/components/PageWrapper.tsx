@@ -22,7 +22,7 @@ export interface CalPageWrapper {
 
 const interFont = Inter({ subsets: ["latin"], variable: "--font-inter", preload: true, display: "swap" });
 const calFont = localFont({
-  src: "../fonts/Gilroy-Medium.ttf", //for changinf the font change from here
+  src: "../fonts/CalSans-SemiBold.woff2", //for changinf the font change from here
   variable: "--font-cal",
   preload: true,
   display: "swap",

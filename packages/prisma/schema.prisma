@@ -3,7 +3,7 @@
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgres:virugama123@localhost:5432/meeteasy"
+  url      = "postgresql://postgres:yash1112@localhost:5432/meeteasy"
 }
 
 generator client {
